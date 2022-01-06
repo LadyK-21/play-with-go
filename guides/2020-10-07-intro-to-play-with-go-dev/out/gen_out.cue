@@ -15,21 +15,21 @@ Presteps: [{
 		  "Path": "github.com/play-with-go/gitea/cmd/gitea",
 		  "Main": {
 		    "Path": "github.com/play-with-go/gitea",
-		    "Version": "v0.0.0-20210723114817-feef4e6b64a7",
-		    "Sum": "h1:sEr3hyAUMVVfDG6xmHdzwSKHOL8ZpI5DJYQvbMtpZks=",
+		    "Version": "v0.0.0-20220106114628-b590bf5f2ed8",
+		    "Sum": "h1:TE7Xgdpvf8wfNmYHxsaaXo65X5+qoT+6NWy+ERm5VMw=",
 		    "Replace": null
 		  },
 		  "Deps": [
 		    {
 		      "Path": "code.gitea.io/sdk/gitea",
-		      "Version": "v0.13.1",
-		      "Sum": "h1:Y7bpH2iO6Q0KhhMJfjP/LZ0AmiYITeRQlCD8b0oYqhk=",
+		      "Version": "v0.15.1",
+		      "Sum": "h1:WJreC7YYuxbn0UDaPuWIe/mtiNKTvLN8MLkaw71yx/M=",
 		      "Replace": null
 		    },
 		    {
 		      "Path": "cuelang.org/go",
-		      "Version": "v0.4.0",
-		      "Sum": "h1:GLJblw6m2WGGCA3k1v6Wbk9gTOt2qto48ahO2MmSd6I=",
+		      "Version": "v0.4.1-beta.6",
+		      "Sum": "h1:xRczeeLKuIyyPix68DDRZA5J4+yU1JPPDOOzHT7Hc24=",
 		      "Replace": null
 		    },
 		    {
@@ -58,8 +58,8 @@ Presteps: [{
 		    },
 		    {
 		      "Path": "github.com/hashicorp/go-version",
-		      "Version": "v1.2.0",
-		      "Sum": "h1:3vNe/fWF5CBgRIguda1meWhsZHy3m8gCJ5wx+dIzX/E=",
+		      "Version": "v1.2.1",
+		      "Sum": "h1:zEfKbn2+PDgroKdiOzqiE8rsmLqU2uwi5PB5pBJ3TkI=",
 		      "Replace": null
 		    },
 		    {
@@ -76,8 +76,8 @@ Presteps: [{
 		    },
 		    {
 		      "Path": "github.com/play-with-go/preguide",
-		      "Version": "v0.0.2-0.20210723101428-f0437229c60d",
-		      "Sum": "h1:298lqYRTgb0AnzWRhXMFuAwNtoR7L60aTCNmWOyz4Gw=",
+		      "Version": "v0.0.2-0.20220106114552-6e616d3356b9",
+		      "Sum": "h1:qBOOpe66aZZ5dCWv2YJBbHaKx0fsr3b52iX104sB4qM=",
 		      "Replace": null
 		    },
 		    {
@@ -118,8 +118,8 @@ Presteps: [{
 		    },
 		    {
 		      "Path": "gopkg.in/yaml.v3",
-		      "Version": "v3.0.0-20200313102051-9f266ea9e77c",
-		      "Sum": "h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=",
+		      "Version": "v3.0.0-20210107192922-496545a6307b",
+		      "Sum": "h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=",
 		      "Replace": null
 		    }
 		  ]
@@ -132,7 +132,7 @@ Terminals: [{
 	Description: "The main terminal"
 	Scenarios: {
 		go115: {
-			Image: "playwithgo/go1.15.8@sha256:7640da09d1555c4dddbba7f1b96051af2816e6542005176b749f38865ee0454c"
+			Image: "playwithgo/go1.15.8@sha256:a42b5a86a04893612a18a3cbe58f37099011167af5795d2930a53b90c7bf0af5"
 		}
 	}
 }]
@@ -358,5 +358,5 @@ Steps: {
 		}]
 	}
 }
-Hash: "a2da9814549afb7151dd018b75531ba75d5ba39aa1cfbd572bd6068956a5b645"
+Hash: "29e67f639d113e04d309bb1c0e13af6e0c57f09fd02f1f9c77b1d2732da58aae"
 Delims: ["{{{", "}}}"]

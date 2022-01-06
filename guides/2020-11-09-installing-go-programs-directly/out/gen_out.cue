@@ -5,7 +5,7 @@ Terminals: [{
 	Description: "The main terminal"
 	Scenarios: {
 		go116: {
-			Image: "playwithgo/go1.16@sha256:3ae1950433998a2be8c8ce3b1cb6479e6541f1e32443447a24085cfe09e2c391"
+			Image: "playwithgo/go1.16@sha256:b5bdf43bb7cb28a35eb6a44570ad6936f31accd4e0312f38bf1ac116423d278e"
 		}
 	}
 }]
@@ -25,17 +25,11 @@ Steps: {
 		Order:           0
 		Terminal:        "term1"
 		Stmts: [{
-			Negated:  false
-			CmdStr:   "go version"
-			ExitCode: 0
-			Output: """
-				go version go1.16 linux/amd64
-
-				"""
-			ComparisonOutput: """
-				go version go1.16 linux/amd64
-
-				"""
+			Negated:          false
+			CmdStr:           "go version"
+			ExitCode:         0
+			Output:           "go version go1.16 linux/amd64"
+			ComparisonOutput: "go version go1.16 linux/amd64"
 		}]
 	}
 	go115_mkcert_get: {
@@ -177,5 +171,5 @@ Steps: {
 		}]
 	}
 }
-Hash: "147a1593fda589cc932377b1522660a5151741357de69b7416d78a17b80e4d64"
+Hash: "f49bc2c55d1fcedbcce3a72b659ac0dfb995224a6d830c086d4c6e3e1a67a337"
 Delims: ["{{{", "}}}"]
